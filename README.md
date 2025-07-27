@@ -62,7 +62,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
-3. Install dependencies by running
+3. Create a conda environment with `python 3.6`.
+
+4. Install dependencies by running
 
    `python setup.py install`
 
@@ -71,6 +73,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
    `pip install -e .`
 
 ### Dependencies
+   - tensorflow==1.7.1
    - notebook==6.1.5
    - unityagents==0.4.0
    - torch
