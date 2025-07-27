@@ -73,6 +73,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
    `pip install -e .`
 
 ### Dependencies
+   - python==3.6
    - tensorflow==1.7.1
    - notebook==6.1.5
    - unityagents==0.4.0
