@@ -1,0 +1,4 @@
+notebook==6.1.5
+unityagents==0.4.0
+torch
+matplotlib
