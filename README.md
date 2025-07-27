@@ -62,9 +62,25 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
+3. Install dependencies by running
+
+   `python setup.py install`
+
+   or 
+
+   `pip install -e .`
+
+### Dependencies
+   - notebook==6.1.5
+   - unityagents==0.4.0
+   - torch
+   - matplotlib
+
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+1. Follow the instructions in `Continuous_Control_train_cpu_1.ipynb`, `Continuous_Control_train_cpu_2.ipynb` or `Continuous_Control_train_gpu.ipynb` to get started with training your own agent!  
+
+2.  Follow the instructions in `Agents_Test.ipynb` to test trained agents.
 
 ### (Optional) Challenge: Crawler Environment
 
